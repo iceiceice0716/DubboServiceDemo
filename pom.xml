@@ -18,7 +18,6 @@
 		<mybatis-spring.version>1.2.2</mybatis-spring.version>
 		<mybatis.version>3.2.8</mybatis.version>
 		<mysql.version>5.1.39</mysql.version>
-		<proxool.version>0.9.1</proxool.version>
 		<poi.version>3.12</poi.version>
 		<poi-ooxml.version>3.12</poi-ooxml.version>
 		<spring.redis.version>1.5.0.RELEASE</spring.redis.version>
@@ -162,25 +161,12 @@
 			<version>${mysql.version}</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/proxool/proxool -->
-		<dependency>
-			<groupId>proxool</groupId>
-			<artifactId>proxool</artifactId>
-			<version>${proxool.version}</version>
-		</dependency>
-
-		<dependency>
-			<groupId>com.cloudhopper.proxool</groupId>
-			<artifactId>proxool-cglib</artifactId>
-			<version>${proxool.version}</version>
-		</dependency>
-		
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
 			<version>${druid.version}</version>
 		</dependency>
-
+ 
 		<!-- https://mvnrepository.com/artifact/com.google.zxing/core -->
 		<dependency>
 			<groupId>com.google.zxing</groupId>
